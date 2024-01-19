@@ -54,30 +54,18 @@ En este desafío, nos sumergiremos en el apasionante mundo del reporting de dato
 
 ## Librerías 
 - pandas 
-- numpy  
+- numpy
 pd.set_option('display.max_rows', None) # para poder visualizar todas las filas de los DataFrames
 pd.set_option('display.max_columns', None) # para poder visualizar todas las columnas de los DataFrames
 
-# Imputación de nulos usando métodos avanzados estadísticos
-# -----------------------------------------------------------------------
-sklearn.impute 
-sklearn.experimental import enable_iterative_imputer
-from sklearn.impute import IterativeImputer
-from sklearn.impute import KNNImputer
-from sklearn.preprocessing import LabelEncoder
-# Visualización
-# ------------------------------------------------------------------------------
-import matplotlib.pyplot as plt
-import seaborn as sns
-# AB testing
-# -----------------------------------------------------------------------
-import scipy.stats as stats
-from scipy.stats import shapiro, poisson, chisquare, chi2_contingency, expon, kstest
-from scipy.stats import ttest_ind
-from scipy.stats import levene
-# Gestión de los warnings
-# -----------------------------------------------------------------------
-import warnings
-warnings.filterwarnings("ignore")
+### Imputación de nulos usando métodos avanzados estadísticos
+- sklearn
+### Visualización
+- matplotlib
+- seaborn
+### AB testing
+- scipy
+### Gestión de los warnings
+- warnings
 
 ¡Disfruten del proyecto y demuestren sus habilidades en análisis de datos y visualización!
