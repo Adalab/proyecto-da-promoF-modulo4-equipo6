@@ -23,7 +23,7 @@ import matplotlib.pyplot as plt
 
 
 
-df_rh = pd.read_csv("data/recursos-humanos.csv", index_col=0)
+df_rh = pd.read_csv("SRC/data/recursos-humanos.csv", index_col=0)
 
 def eliminar_columnas(df_col_sucio):
     """
